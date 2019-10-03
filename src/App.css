@@ -3,9 +3,23 @@
 }
 
 .App-logo {
-  height: 40vmin;
-}
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 
+}
+box-field,
+.newsbox {
+  width: 45%;
+  background-color: lightgrey;
+  font-family: arial;
+  margin-left: 30px;
+  height: 80%;
+  padding: 5px 10px 10px 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -19,4 +33,26 @@
 
 .App-link {
   color: #09d3ac;
+}
+form label {
+  width: 200px;
+    padding-right: 20px;
+    display: inline-block;
+    text-align:right;
+    font-weight:bold;
+}
+
+form input[type=text] {
+  width: 250px;
+  display: inline-block;
+}
+
+form fieldset {
+  margin-left:220px;
+  width:230px;
+}
+
+form fieldset label {
+    text-align:left;
+    width:30px;
 }

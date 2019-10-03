@@ -1,0 +1,64 @@
+<form name="addressForm" action="" method="post">
+    <p>
+      <label for="userName">Username:</label>
+      <input id="userName" type="text" required>
+    </p>
+    <p>
+      <label for="password">password:</label>
+      <input id="password" type="password" required>
+    </p>
+    <p>
+      <label for="email">email:</label>
+      <input id="email" type="email" required>
+    </p>
+    <p>
+      <label for="fullName">Full name:</label>
+      <input id="fullName" type="text" required>
+    </p>
+    <fieldset>
+        <legend>
+        Gender
+        </legend>
+        <input type="radio" name="gender" id="male" value="male"> <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female"> <label for="female">Female</label>
+    </fieldset>
+    <p>
+      <label for="addressLine1">Address Line 1:</label>
+      <input id="addressLine1" type="text">
+    </p>
+    <p>
+      <label for="addressLine2">Address Line 2:</label>
+      <input id="addressLine2" type="text">
+    </p>
+    <p>
+      <label for="city">City:</label>
+      <input id="city" type="text">
+    </p>
+    <p>
+      <label for="stateProvinceRegion">State / Province / Region:</label>
+      <input id="stateProvinceRegion" type="text">
+    </p>
+    <p>
+      <label for="zip">ZIP:</label>
+      <input id="zip" type="text">
+    </p>
+    <p>
+      <label for="country">Country:</label>
+      <select name="country">
+        <option value="us">United States</option>
+        <option value="ca">Canada</option>
+        <option value="mx">Mexico</option>
+      </select>
+    </p>
+    <p>
+      <label for="phoneNumber">Phone Number:</label>
+      <input id="phoneNumber" type="tel"pattern="^(\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}$">
+    </p>
+    <p>
+      <input id="submitButton" type="submit" value ="submit">
+    </p>
+    </form>
+    
+    <div>
+      <span id="formOutput"></span>
+    </div>
